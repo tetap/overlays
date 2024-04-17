@@ -1,5 +1,5 @@
 {
-  "name": "@overlays/vue2",
+  "name": "@tetap/vue2",
   "type": "module",
   "version": "0.4.4",
   "license": "MIT",
@@ -20,11 +20,10 @@
   "publishConfig": {
     "exports": {
       ".": {
-        "import": "./dist/index.js",
-        "require": "./dist/index.cjs"
+        "import": "./dist/index.js"
       }
     },
-    "main": "./dist/index.cjs",
+    "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "jsdelivr": "./dist/index.global.js",
     "linkDirectory": false

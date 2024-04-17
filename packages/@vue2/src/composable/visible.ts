@@ -17,7 +17,6 @@ export function createVisibleScripts(options: ScriptsOptions) {
     _reject?.(value)
   }
   function resolve(this: any, value?: any) {
-    options.deferred?.resolve(value)
     emit('resolve', value)
     return _resolve?.(value)
   }
